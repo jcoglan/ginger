@@ -12,7 +12,9 @@ function parse (manual) {
     let defWords = def.map(parseWord)
 
     let types = parseDef(defWords)
-    return types ? { word, types } : null
+    let raw = defWords.map((w) => w.text)
+
+    return types ? { word, types, raw } : null
   })
 
   defs = defs.filter((d) => d !== null)
@@ -55,8 +57,10 @@ function matcher (patterns) {
   patterns = patterns.map(patternMatcher)
 
   return {
-    match (word) {
-      return patterns.some((pat) => pat(word))
+    match (words) {
+      return words.some((word) => {
+        return patterns.some((pat) => pat(word))
+      })
     }
   }
 }
@@ -134,7 +138,8 @@ let dict = parse(manual)
 
 let { values: args } = parseArgs({
   options: {
-    def: { short: 'd', type: 'string', multiple: true }
+    def: { short: 'd', type: 'string', multiple: true },
+    use: { short: 'u', type: 'string', multiple: true }
   },
   strict: true
 })
@@ -143,7 +148,12 @@ let results = dict.slice()
 
 if (args.def) {
   let def = matcher(args.def)
-  results = results.filter(({ word }) => def.match(word))
+  results = results.filter(({ word }) => def.match([word]))
+}
+
+if (args.use) {
+  let use = matcher(args.use)
+  results = results.filter(({ raw }) => use.match(raw))
 }
 
 console.log(`found words: ${results.length}\n`)
