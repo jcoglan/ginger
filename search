@@ -109,7 +109,19 @@ function fmt (str, n) {
 
 let manual = fs.readFileSync(path.resolve(__dirname, 'manual.txt'), 'utf8')
 let dict = parse(manual)
+
+let { values: args } = parseArgs({
+  options: {
+    def: { short: 'd', type: 'string', multiple: true }
+  },
+  strict: true
+})
+
 let results = dict.slice()
+
+if (args.def) {
+  results = results.filter(({ word }) => args.def.some((d) => d === word))
+}
 
 console.log(`found words: ${results.length}\n`)
 
