@@ -26,3 +26,16 @@ yre yre' suggests that 'yre' means 'one' and 'ju' (hh) means 'add' or 'plus'.
 Note that numbers 1, 2 and 3 have definitions for other types: 'yre' (a), 'ysi'
 (a), and 'yamte' (sj). 'One' could also mean 'a' (indefinite article) and 'two'
 could mean 'both'.
+
+Looking for other entries that use numbers, only one entry uses zero: 'zuli',
+meaning 'zuli' (sj), meaning 'yater z eguux jakch f yra lela. yre ysi yh yux
+alpp ji o yre ysi yux yamte zucjch ji.' The second sentence translates to '1 2 0
+7 alpp ji o 1 2 7 3 zucjch ji'. These look like dates; searching for "born 1207
+died 1273" points to the Persian poet Rumi. The only place 'zuli' is used in the
+book resembles a quote citation which strongly suggests this is a person's name.
+
+This definition has two sub-classes of the form '<date> X ji', separated by 'o'.
+This suggests 'ji' means 'to be' or 'to have', 'alpp' means 'start' or
+'birth', 'zucjch' means 'end' or 'death', and 'o' means 'to' or 'and'.
+
+'zuli' is of type 'sj', the most common type, so 'sj' most likely means 'noun'.
