@@ -1,0 +1,28 @@
+# numbers
+
+The entries with type 'y' often have a definition of the form 'X = ju Y jre'.
+They can be arranged into a sequence where each definition refers to the one
+before it:
+
+ysi   = ju yre yre
+yamte = ju ysi yre
+yer   = ju yamte yre
+ysx   = ju yer yre
+ycx   = ju ysx yre
+yux   = ju ycx yre
+yax   = ju yux yre
+yex   = ju yax yre
+
+This chain of definitions where each one applies the same construction to the
+one before it strongly suggests these are a sequence of things, and there being
+10 items in this category suggests they're numbers.
+
+The construction 'ju X yre' means 'add 1 to X'. The repetition of 'yre' in 'ju
+yre yre' suggests that 'yre' means 'one' and 'ju' (hh) means 'add' or 'plus'.
+
+'yh' is defined as 'tta yre'. By elimination this is most likely 'zero' and so
+'tta' (e) could mean 'less than' or 'absence of'.
+
+Note that numbers 1, 2 and 3 have definitions for other types: 'yre' (a), 'ysi'
+(a), and 'yamte' (sj). 'One' could also mean 'a' (indefinite article) and 'two'
+could mean 'both'.

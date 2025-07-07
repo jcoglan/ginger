@@ -1,1 +1,13 @@
-
+ju    = add/plus
+tta   = absence
+y     = number
+yamte = three
+yax   = eight
+ycx   = six
+yer   = four
+yex   = nine
+yh    = zero
+yre   = one/a
+ysi   = two/both
+ysx   = five
+yux   = seven
