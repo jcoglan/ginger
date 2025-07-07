@@ -51,6 +51,28 @@ function parseDef (words) {
   return types
 }
 
+function matcher (patterns) {
+  patterns = patterns.map(patternMatcher)
+
+  return {
+    match (word) {
+      return patterns.some((pat) => pat(word))
+    }
+  }
+}
+
+function patternMatcher (pattern) {
+  if (/^[a-z]*\.[a-z]*$/.test(pattern)) {
+    let [start, end = ''] = pattern.split('.')
+    return (word) => word.startsWith(start) && word.endsWith(end)
+  }
+  if (/^\.[a-z]+\.$/.test(pattern)) {
+    let str = pattern.replace(/\./g, '')
+    return (word) => word.includes(str)
+  }
+  return (word) => word === pattern
+}
+
 function printEntry ({ word, types }) {
   let head = bold(word)
   console.log(head)
@@ -120,7 +142,8 @@ let { values: args } = parseArgs({
 let results = dict.slice()
 
 if (args.def) {
-  results = results.filter(({ word }) => args.def.some((d) => d === word))
+  let def = matcher(args.def)
+  results = results.filter(({ word }) => def.match(word))
 }
 
 console.log(`found words: ${results.length}\n`)
