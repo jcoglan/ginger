@@ -6,15 +6,16 @@ const fs = require('fs')
 const path = require('path')
 const { parseArgs, inspect } = require('util')
 
-function parse (manual) {
+function parse (manual, translation) {
   let defs = manual.split('\n\n').map((text) => {
     let [word, ...def] = text.split(/\s/)
     let defWords = def.map(parseWord)
 
-    let types = parseDef(defWords)
+    let types = parseDef(defWords, translation)
     let raw = defWords.map((w) => w.text)
+    let trans = translation.get(word)
 
-    return types ? { word, types, raw } : null
+    return types ? { word, types, raw, trans } : null
   })
 
   defs = defs.filter((d) => d !== null)
@@ -32,7 +33,7 @@ function parseWord (word) {
   return { text, punc }
 }
 
-function parseDef (words) {
+function parseDef (words, translation) {
   if (words[0].punc !== '.') return null
 
   let types = []
@@ -41,9 +42,11 @@ function parseDef (words) {
   let lastDef = null
 
   for (let [i, { text, punc }] of words.entries()) {
+    let trans = translation.get(text)
+
     if (i < words.length - 1 && eos && punc === '.') {
       lastDef = []
-      lastType = { type: text, defs: [lastDef] }
+      lastType = { type: text, trans, defs: [lastDef] }
       types.push(lastType)
     } else if (/^[0-9]+$/.test(text)) {
       let n = parseInt(text, 10)
@@ -82,24 +85,37 @@ function patternMatcher (pattern) {
   return (word) => word === pattern
 }
 
-function printEntry ({ word, types, count }) {
+function printEntry ({ word, trans, types, count }, opts = {}) {
   let head = bold(word) + ` [${count}]`
+  if (opts.translate && trans) head += ' ' + ul(trans)
   console.log(head)
 
-  for (let { type, defs } of types) {
-    console.log(indent(1, type + '.'))
+  for (let { type, trans, defs } of types) {
+    let pos = (opts.translate && trans) ? ul(trans) : type
+    console.log(indent(1, pos + '.'))
 
     for (let [i, def] of defs.entries()) {
       if (defs.length > 1) def = [{ text: `${i+1}`, punc: ':' }, ...def]
 
       def = def.map(({ text, punc }) => {
-        return { len: text.length + punc.length, word: text + punc }
+        let { len, word } = translate(text, opts)
+        return { len: len + punc.length, word: word + punc }
       })
 
       console.log(lineWrap(2, def))
     }
   }
   console.log()
+}
+
+function translate (word, opts = {}) {
+  if (opts.translate) {
+    let { trans } = opts.dict.find((d) => d.word === word) || {}
+    if (trans) {
+      return { len: trans.length, word: ul(trans) }
+    }
+  }
+  return { len: word.length, word }
 }
 
 function indent (n, str) {
@@ -167,8 +183,11 @@ sounds = new Map(
   }).filter(([sound]) => /^[a-z]{1,2}$/.test(sound))
 )
 
+let solves = fs.readFileSync(path.resolve(__dirname, 'translations.txt'), 'utf8')
+solves = new Map(solves.split('\n').map((line) => line.split(/ *= */)))
+
 let manual = fs.readFileSync(path.resolve(__dirname, 'manual.txt'), 'utf8')
-let dict = parse(manual)
+let dict = parse(manual, solves)
 
 let { values: args } = parseArgs({
   options: {
@@ -177,6 +196,7 @@ let { values: args } = parseArgs({
     def:        { short: 'd', type: 'string', multiple: true },
     use:        { short: 'u', type: 'string', multiple: true },
     sort:       { short: 's', type: 'string' },
+    translate:  { short: 'x', type: 'boolean' },
     pronounce:  { short: 'p', type: 'string' }
   },
   strict: true
@@ -232,5 +252,5 @@ if (args.sort === 'count') {
 console.log(`found words: ${results.length}\n`)
 
 for (let entry of results) {
-  printEntry(entry)
+  printEntry(entry, { dict, translate: args.translate })
 }
