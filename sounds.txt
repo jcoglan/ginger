@@ -1,0 +1,80 @@
+    sound | voiced | tongue | lips | talk
+    ----- | ------ | ------ | ---- | ----
+    a     | Y      |        | D    | .
+    aa    |        | U      | D    | .
+    ai    |        | R      | D    | .
+    am    | Y      | D      | D    | .
+    ao    | Y      | L      | .    | R
+    ax    |        | U      | .    | D
+    b     | Y      |        | .    | U
+    ba    | Y      |        | .    | D
+    be    | Y      |        | .    | L
+    bu    | Y      |        | .    | R
+    ch    | Y      | L      | .    | U
+    cj    |        | L      | U    | .
+    cx    |        | L      | .    | U
+    d     | Y      | R      | .    | U
+    da    | Y      | R      | .    | D
+    de    | Y      | R      | .    | L
+    du    | Y      | R      | .    | R
+    e     | Y      |        | L    | .
+    ee    |        | U      | L    | .
+    ei    |        | R      | L    | .
+    ej    |        | L      | D    | .
+    er    |        | L      | .    | D
+    ex    |        | U      | .    | L
+    f     |        |        | R    | .
+    g     | Y      | D      | .    | U
+    ga    | Y      | D      | .    | D
+    ge    | Y      | D      | .    | L
+    gu    | Y      | D      | .    | R
+    h     |        |        | .    | D
+    he    |        |        | .    | L
+    hh    |        |        | D    | .
+    hj    |        | L      | R    | .
+    hm    |        |        | L    | .
+    hu    |        | L      | .    | R
+    i     | Y      |        | U    | .
+    in    | Y      | D      | R    | .
+    ja    | Y      | U      | D    | .
+    je    | Y      | U      | L    | .
+    ji    | Y      | U      | U    | .
+    ju    | Y      | U      | R    | .
+    k     |        | D      | .    | U
+    ka    |        | D      | .    | D
+    ke    |        | D      | .    | L
+    ku    |        | D      | .    | R
+    l     |        | U      | .    | U
+    la    | Y      | U      | .    | D
+    le    | Y      | U      | .    | L
+    li    | Y      | U      | .    | U
+    lu    | Y      | U      | .    | R
+    o     | Y      | L      | R    | .
+    p     |        |        | .    | U
+    pp    |        | U      | R    | .
+    pu    |        |        | .    | R
+    q     | Y      | L      | U    | .
+    qa    | Y      | L      | D    | .
+    qe    | Y      | L      | L    | .
+    qr    | Y      | L      | .    | D
+    r     |        | D      | U    | .
+    ra    |        | D      | D    | .
+    re    |        | D      | L    | .
+    s     |        |        | U    | .
+    sh    | Y      | L      | .    | L
+    si    |        | R      | U    | .
+    sj    |        | L      | L    | .
+    su    |        | R      | R    | .
+    sx    |        | L      | .    | L
+    t     |        | R      | .    | U
+    ta    |        | R      | .    | D
+    te    |        | R      | .    | L
+    tu    |        | R      | .    | R
+    u     | Y      |        | R    | .
+    ux    |        | U      | .    | R
+    v     | Y      | D      | U    | .
+    w     |        | D      | R    | .
+    x     |        | U      | U    | .
+    y     | Y      | D      | L    | .
+    z     | Y      | R      | U    | .
+    zu    | Y      | R      | R    | .

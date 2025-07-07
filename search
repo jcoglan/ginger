@@ -138,19 +138,60 @@ function fmt (str, n) {
   return `\x1b[${n}m${str}\x1b[0m`
 }
 
+function pronounce (sounds, word) {
+  if (word.length === 0) return [[]]
+
+  let starts = [...sounds.keys()].filter((key) => word.startsWith(key))
+
+  return starts.flatMap((sound) => {
+    let rest = pronounce(sounds, word.substring(sound.length))
+    return rest.map((others) => [sounds.get(sound), ...others])
+  })
+}
+
+function talk ({ voice, tongue, lips }) {
+  let arrows = { 'U': '↑', 'R': '→', 'D': '↓', 'L': '←' }
+  return [
+    voice ? '@' : '',
+    arrows[tongue] || '_',
+    ...lips.map((s) => arrows[s] || s)
+  ].join('')
+}
+
+let sounds = fs.readFileSync(path.resolve(__dirname, 'sounds.txt'), 'utf8')
+sounds = new Map(
+  sounds.split('\n').map((line) => {
+    line = line.replace(/^ *| *$/g, '')
+    let [sound, voice, tongue, ...lips] = line.split(/ *\| */)
+    return [sound, { sound, voice: voice === 'Y', tongue, lips }]
+  }).filter(([sound]) => /^[a-z]{1,2}$/.test(sound))
+)
+
 let manual = fs.readFileSync(path.resolve(__dirname, 'manual.txt'), 'utf8')
 let dict = parse(manual)
 
 let { values: args } = parseArgs({
   options: {
-    types:  { short: 'T', type: 'boolean' },
-    type:   { short: 't', type: 'string' },
-    def:    { short: 'd', type: 'string', multiple: true },
-    use:    { short: 'u', type: 'string', multiple: true },
-    sort:   { short: 's', type: 'string' }
+    types:      { short: 'T', type: 'boolean' },
+    type:       { short: 't', type: 'string' },
+    def:        { short: 'd', type: 'string', multiple: true },
+    use:        { short: 'u', type: 'string', multiple: true },
+    sort:       { short: 's', type: 'string' },
+    pronounce:  { short: 'p', type: 'string' }
   },
   strict: true
 })
+
+if (args.pronounce) {
+  let combos = pronounce(sounds, args.pronounce).sort((a, b) => a.length - b.length)
+
+  for (let combo of combos) {
+    let parts = combo.map((c) => c.sound)
+    let inputs = combo.map(talk)
+    console.log(`- ${parts.join('|')}\t${inputs.join(' / ')}`)
+  }
+  process.exit()
+}
 
 if (args.types) {
   let types = dict.flatMap(({ types }) => types.map((t) => t.type))
