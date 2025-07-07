@@ -39,3 +39,4 @@ This suggests 'ji' means 'to be' or 'to have', 'alpp' means 'start' or
 'birth', 'zucjch' means 'end' or 'death', and 'o' means 'to' or 'and'.
 
 'zuli' is of type 'sj', the most common type, so 'sj' most likely means 'noun'.
+'ji' is of type 'k', the second most common type, which is probably verbs.

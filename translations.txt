@@ -1,6 +1,7 @@
 alpp   = start/birth
 ji     = be/have
 ju     = add/plus
+k      = verb
 o      = to/and?
 sj     = noun
 tta    = absence
