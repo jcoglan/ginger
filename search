@@ -1,0 +1,118 @@
+#!/usr/bin/env node
+
+'use strict'
+
+const fs = require('fs')
+const path = require('path')
+const { parseArgs, inspect } = require('util')
+
+function parse (manual) {
+  let defs = manual.split('\n\n').map((text) => {
+    let [word, ...def] = text.split(/\s/)
+    let defWords = def.map(parseWord)
+
+    let types = parseDef(defWords)
+    return types ? { word, types } : null
+  })
+
+  defs = defs.filter((d) => d !== null)
+  return defs
+}
+
+function parseWord (word) {
+  let text = word.replace(/[^a-z0-9]/ig, '')
+  let punc = word.match(/[^a-z0-9]*$/)[0]
+  return { text, punc }
+}
+
+function parseDef (words) {
+  if (words[0].punc !== '.') return null
+
+  let types = []
+  let eos = true
+  let lastType = null
+  let lastDef = null
+
+  for (let [i, { text, punc }] of words.entries()) {
+    if (i < words.length - 1 && eos && punc === '.') {
+      lastDef = []
+      lastType = { type: text, defs: [lastDef] }
+      types.push(lastType)
+    } else if (/^[0-9]+$/.test(text)) {
+      let n = parseInt(text, 10)
+      lastDef = []
+      lastType.defs[n - 1] = lastDef
+    } else {
+      lastDef.push({ text, punc })
+    }
+    eos = !eos && punc === '.'
+  }
+
+  return types
+}
+
+function printEntry ({ word, types }) {
+  let head = bold(word)
+  console.log(head)
+
+  for (let { type, defs } of types) {
+    console.log(indent(1, type + '.'))
+
+    for (let [i, def] of defs.entries()) {
+      if (defs.length > 1) def = [{ text: `${i+1}`, punc: ':' }, ...def]
+
+      def = def.map(({ text, punc }) => {
+        return { len: text.length + punc.length, word: text + punc }
+      })
+
+      console.log(lineWrap(2, def))
+    }
+  }
+  console.log()
+}
+
+function indent (n, str) {
+  let pad = ''
+  while (n--) pad += '    '
+  return pad + str
+}
+
+function lineWrap (n, words) {
+  let cols = process.stdout.columns || 80
+  let limit = cols - 4 * (n + 2)
+  let lines = []
+
+  for (let { len, word } of words) {
+    let last = lines.length - 1
+    if (last === -1 || lines[last].len + len > limit) {
+      lines.push({ len, text: word })
+    } else {
+      lines[last].len += 1 + len
+      lines[last].text += ' ' + word
+    }
+  }
+
+  return lines.map((line) => indent(n, line.text)).join('\n')
+}
+
+function bold (str) {
+  return fmt(str, 1)
+}
+
+function ul (str) {
+  return fmt(str, 4)
+}
+
+function fmt (str, n) {
+  return `\x1b[${n}m${str}\x1b[0m`
+}
+
+let manual = fs.readFileSync(path.resolve(__dirname, 'manual.txt'), 'utf8')
+let dict = parse(manual)
+let results = dict.slice()
+
+console.log(`found words: ${results.length}\n`)
+
+for (let entry of results) {
+  printEntry(entry)
+}
