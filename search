@@ -143,14 +143,36 @@ let dict = parse(manual)
 
 let { values: args } = parseArgs({
   options: {
-    def:  { short: 'd', type: 'string', multiple: true },
-    use:  { short: 'u', type: 'string', multiple: true },
-    sort: { short: 's', type: 'string' }
+    types:  { short: 'T', type: 'boolean' },
+    type:   { short: 't', type: 'string' },
+    def:    { short: 'd', type: 'string', multiple: true },
+    use:    { short: 'u', type: 'string', multiple: true },
+    sort:   { short: 's', type: 'string' }
   },
   strict: true
 })
 
+if (args.types) {
+  let types = dict.flatMap(({ types }) => types.map((t) => t.type))
+  let counts = new Map()
+
+  for (let type of types) {
+    counts.set(type, (counts.get(type) || 0) + 1)
+  }
+
+  let sorted = [...counts].sort(([x, a], [y, b]) => b - a)
+
+  for (let [type, count] of sorted) {
+    console.log(`\t${count}\t${type}`)
+  }
+  process.exit()
+}
+
 let results = dict.slice()
+
+if (args.type) {
+  results = results.filter(({ types }) => types.some((t) => t.type === args.type))
+}
 
 if (args.def) {
   let def = matcher(args.def)
