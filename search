@@ -18,6 +18,11 @@ function parse (manual) {
   })
 
   defs = defs.filter((d) => d !== null)
+
+  for (let def of defs) {
+    def.count = defs.filter(({ raw }) => raw.includes(def.word)).length
+  }
+
   return defs
 }
 
@@ -77,8 +82,8 @@ function patternMatcher (pattern) {
   return (word) => word === pattern
 }
 
-function printEntry ({ word, types }) {
-  let head = bold(word)
+function printEntry ({ word, types, count }) {
+  let head = bold(word) + ` [${count}]`
   console.log(head)
 
   for (let { type, defs } of types) {
@@ -138,8 +143,9 @@ let dict = parse(manual)
 
 let { values: args } = parseArgs({
   options: {
-    def: { short: 'd', type: 'string', multiple: true },
-    use: { short: 'u', type: 'string', multiple: true }
+    def:  { short: 'd', type: 'string', multiple: true },
+    use:  { short: 'u', type: 'string', multiple: true },
+    sort: { short: 's', type: 'string' }
   },
   strict: true
 })
@@ -154,6 +160,10 @@ if (args.def) {
 if (args.use) {
   let use = matcher(args.use)
   results = results.filter(({ raw }) => use.match(raw))
+}
+
+if (args.sort === 'count') {
+  results = results.sort((a, b) => b.count - a.count)
 }
 
 console.log(`found words: ${results.length}\n`)
