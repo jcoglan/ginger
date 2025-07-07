@@ -1,0 +1,136 @@
+# kap
+
+axuax [36, hh] = kap uxaux. zuf bteb.
+uxaux [79, hh] = kap axuax. zuf bteb.
+exiex [23, hh] = kap axuax ee kap uxaux.
+
+axuaxf [22, e] = hgasi z l axuax dkdg.
+uxauxf [24, e] = hgasi z l uxaux dkdg.
+
+kauin [34, e] = 1: axuax ging dkdg. kap taar.
+                2: exiex axuaxf ging dkdg. kap taar.
+taar [41, e] = uxaux ging dkdg. kap kauin.
+auin [1, e] = kap kauin. kauin cji ji el hhg je ishl.
+eiar[1, hh] = kap taar ee kap kauin.
+
+asx [20, k] = 1: asj am axuaxf ji.
+              2: dust ja ee je kap utei o vh akudep z je ja alih kat ja je asj.
+xztl [1, k] = kap asx. vs exiex erisula belu kadu. axx.
+
+kysi [42, k] = subtatef sxresh kytu.
+kyso [29, k] = vk yra kysi.
+xysi [1, k] = kap uxi kysi.
+
+kytu [85, k] = 1: kyv kysi. 2: kakauka kyso.
+kytu [85, sj] = kyv in sxresh in hgasi kyv f gega. k kuuee.
+hytu [6, k] = kap kytu.
+
+lav [9, sj] = ahk tta lela kytu.
+lav [9, e] = yre ji. ju yra hkdg. lava. lavit. kap lll.
+eut [1, e] = kap lav.
+gude [2, e] = cxla ahk uxaux lela kytu.
+ehut [15, e] = kap lav ee kap gude. uxauxf in axuaxf ahk.
+
+ahk [121, k] = ging dkdg vk kytu.
+hhk [45, k] = kap ahk.
+
+invk [3, a] = kytu vs qvq.
+inxh [2, a] = kap invh.
+
+airlx [5, k] = suba kytu am subb hytu.
+airli [5, k] = suba kytu aa subb kytu aa ehg kytu.
+irli [1, a] = airli. kap airlx.
+
+qrfde [6, e] = kap kusxkusx. aokasx vzte deda.
+qrfde [6, a] = subb kytu.
+kusxkusx [9, e] = kap qrfde.
+
+shg [19, k] = helu je kytu am taar in tair yra ji.
+xhg [5, k] = kap shg.
+
+ska [14, k] = exate kytu.
+iska [2, e] = ahk in belu ska.
+xska [1, e] = kap iska.
+
+eytu [1, e] = ehut el yra kytu ji.
+xytu [1, e] = kap eytu.
+
+axhk [8, k] = 1: vk ju yra ee yra ysi hucher kytu.
+              2: ysi hucher yre hucher kyin.
+yre [96, y] = kap axhk f yra deqhm.
+
+rek [8, k] = vk ju dkdger vt dkdger rik.
+cxdg [0, e] = kap rek.
+
+dupi [4, k] = hezl yra kap kysi aiin.
+dupo [1, k] = yra hezl kap kysi el dupi.
+
+eeaa [0, sj] = eja ee aje je kap kaxs el je shley.
+eja [5, cj] = alp ja.
+aje [3, cj] = subtatef je.
+ja [90, cj] = pdepr beax.
+je [195, cj] = btebr beax.
+
+kadu [55, k] = vh yra ji.
+hadu [5, k] = kap kadu.
+
+beba [35, k] = ging ahk pdep. yra yra ji.
+heba [18, k] = kap beba.
+
+belu [48, k] = plu akudep plaf.
+helu [9, k] = kap belu.
+
+ahg [35, k] = vk gudde aa shg dkdg.
+hhg [13, k] = kap ahg.
+
+ji [308, k] = 1: beba.
+              2: qrexzt deqhm.
+hji [65, k] = kap ji.
+
+dkdg [119, k] = wux z yra ju yra kadu.
+hkdg [30, k] = kap dkdg.
+
+akudep [45, k] = plu guo rah in dyt.
+akudep [45, sj] = qvq z guo.
+hkudep [5, k] = kap akudep.
+
+asj [50, k] = 1: vk ja je f akudep kyv.
+              2: ahk yamte ew el lela chley.
+              3: yra belu rak.
+hsj [4, k] = kap asj.
+
+qlat [21, hh] = sxk ehut vk gudde ji.
+inlt [13, hh] = kap qlat.
+
+cjdahh [4, e] = uxaux hutl in ler dkdg. qlat el xihuhesh z yras tuk aa dyt ji.
+jahh [1, e] = kap cjdahh.
+
+cxli [2, k] = ahk dyt.
+ppcxli [0, sj] = cji je kap cxli.
+
+vzte [9, a] = vztu deqhm.
+vzte [9, e] = ahk pdep.
+vzte [9, sj] = guo z vzt.
+qvq [26, sj] = kap vzte f kyv.
+
+lqa [40, k] = vh qah dkdg.
+riju [7, e] = kap lqa.
+
+subt [17, sj] = kap subteta ee kap subtate.
+subt [17, hh] = kap vh subteta ee kap vh subtate.
+
+hurer [1, a] = uxaux ging kadu.
+hurer [1, e] = uxaux ging dkdg.
+tssi [0, e] = kap hurer.
+
+ukaji [4, k] = wux kadu.
+wah [1, a] = kap ukaji.
+
+gudde [26, k] = qvq suba yra ji. am heha ehg yra ji.
+xax [1, e] = akudep vx kap gudde.
+xgf [2, k] = je igf am kap gudde.
+
+hmt [7, a] = sepsi exate hadu.
+hmt [7, e] = xyki ju yra ee yra dkdg. ahk yras ppicj vx xyki.
+xhmt [4, a] = kap hmt.
+xhmt [4, e] = qlat vk ppicj ji.
