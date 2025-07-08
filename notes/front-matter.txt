@@ -1,4 +1,4 @@
-# front matter
+# Front matter
 
 The title page bears the text 'GINGER / KEVIN DU', which reads like a title and
 author. 'ginger', 'kevin' and 'du' are all words in the language; they could
@@ -13,15 +13,15 @@ The first text in the book after the apparent title and author is:
 
 These are defined as:
 
-    lizu [1, hh] = yra zuf xyt.
-    ktap [24, sj] = vh wux kytu f sjlup. asre kevin kytu f deda.
-    ktap [24, k] = ja ukaji el je akydep.
+    lizu [1, hh]   = yra zuf xyt.
+    ktap [24, sj]  = vh wux kytu f sjlup. asre kevin kytu f deda.
+    ktap [24, k]   = ja ukaji el je akydep.
 
-    dudi [3, sj] = yre axuaxf kazuqr. suja je ulilu f vh yra. yamte kakakaw yra je aiqr.
+    dudi [3, sj]   = yre axuaxf kazuqr. suja je ulilu f vh yra. yamte kakakaw yra je aiqr.
     saoled [0, sj] = yre taguqr. dudi kabu.
 
-    cxqku [1, sj] = yre axuaxf kazuqr. hatel kadu.
-    zuogu [1, sj] = yre taguqr. hatel kadu.
+    cxqku [1, sj]  = yre axuaxf kazuqr. hatel kadu.
+    zuogu [1, sj]  = yre taguqr. hatel kadu.
 
 'lizu ktap' is listed as the game's publisher on Steam, and links to Kevin Du's
 page; https://store.steampowered.com/publisher/kevindu. I'm not sure that means
@@ -79,8 +79,133 @@ repeating clause:
 
 'kadu' and 'kabu' are somehow related:
 
-    kabu [3, k] = yra sjlup yra invh kadu.
+    kabu [3, k]  = yra sjlup yra invh kadu.
     kadu [55, k] = vh yra ji.
 
 We've also seen some uses of words related to others via 'kap', e.g. 'axuaxf',
 'uxaux'/'uxauxf', 'invh'.
+
+
+## Rumi quote
+
+The quote attributed to Rumi is:
+
+    sxk ja ja hji. lpubl cjja osih ee cjje sasih ja ji.
+
+Or as word types:
+
+    <hh> <cj> <cj> <k>. <bu> <e> <sj> <bu> <e> <sj> <cj> <k>.
+
+Here are the definitions of these words:
+
+    sxk [6, hh]   = 1: sxuk axuax deqhm. 2: yk yra beax.
+    ja [90, cj]   = pdepr beax.
+    hji [65, k]   = kap ji.
+    lpubl [9, bu] = 1: vh siuaa vzt kysi. 2: siuaa sxresh subtet ee subtat kadu.
+    cjja [10, e]  = subtatef gato baali.
+    osih [1, sj]  = vh gudih f cjja sjlup.
+    ee [121, bu]  = ju yra yra shlp deqhm. cxla ysi gega shlp.
+    cjje [8, e]   = subtetaf gato baali.
+    sasih [4, sj] = sxzu saqr dkdg f sjlup.
+    ja [90, cj]   = pdepr beax.
+    ji [308, k]   = 1: beba. 2: qrexzt deqhm.
+
+Each phrase contains a single verb, 'hji' or 'ji', where 'hji' is defined as
+'kap ji'. The first phrase contains a repeated 'ja', which is a 'cj', a type
+with only 15 members. Could be an intensifier of some kind?
+
+The second phrase contains two e-sj (adjective noun) phrases, 'cjja osih' and
+'cjje sasih'. 'cjja' and 'cjje' some closely related, being 'subtatef/subtetaf
+gato baali'. 'osih' mentions 'cjja' in its own definition. 'osih' and 'sasih'
+have a similar suffix, and are the only words ending 'sih', and both mention the
+noun 'sjlup'.
+
+
+## Controls
+
+The first instruction you're given in the game is 'ket' telling you to press a
+button. 'ket' is a verb but not seem to identify that button's specific
+function; this instruction can point at different buttons, and all the game's
+functions are given other names on the following pages. Let's assume 'ket' means
+'press' or 'touch'.
+
+The input labelled 'xhjr' navigates to the end of the book, its definition is:
+
+    xhjr [12, k]  = vk heba.
+    xhjr [12, sj] = heba.
+
+Its noun form means the same as 'heba', which is a verb. Unsure what to make of
+this. At the end of the book the words 'xhjr pu' appear, and pressing the same
+input exits the game. 'pu' is of type 'q', so not a noun or verb. Could be it's
+a modifier for a verb and these instructions mean 'end' or 'exit' or 'the end'
+or 'really exit'.
+
+The input labelled 'rik' moves the view around. Could mean 'move', 'scroll',
+'pan', 'look', things of this nature.
+
+The words 'subtet' and 'subtat' appear in the control instructions and label the
+buttons to go to the previous and next page, respectively. Their definitions,
+and some others that share the 'subt' prefix, are:
+
+    subtet [24, sj]  = subteta lela in deda in sxresh in hgasi.
+    subteta [20, e]  = alpp tlah.
+    subtetaf [5, hh] = hgasi z subtet dkdg.
+
+    subtat [28, sj]  = subtate lela in deda in sxresh in hgasi.
+    subtate [19, e]  = zucjch tlah.
+    subtatef [8, hh] = hgasi z subtat dkdg.
+
+These two groups differ only in the words 'alpp' (birth or start) and 'zucjch'
+(death or end). We can infer these words are noun/adjective/'hh' (?) forms
+related to moving forwards or backwards in some sense, either in space or time,
+or through a sequence of things.
+
+Quite a few other words in the dictionary seem to have variants spelled with an
+'e' or 'a' that correspond to a use of 'subtet' or 'subtat'.
+
+Note the noun form 'subtat' has the grammar:
+
+    subtate lela in deda in sxresh in hgasi
+    <e>     <sj> in <sj> in <sj>   in <sj>
+
+If 'subtate' is the adjective 'next' or 'later' then the noun form refers to a
+_thing_ that is next. This list of nouns separated by 'in' suggests that 'in'
+means 'or' and the nouns are various different types of object.
+
+The main uses of these words for next/previous come in the form of nouns,
+adjectives, and adverbs, so it's possible 'hh' means 'adverb'. However there are
+only 32 'hh' words so that doesn't feel right.
+
+Let's look at the verb 'tlah' used in 'subteta'/'subtate':
+
+    tlah [5, k] = aohjg yra kabu.
+
+We believe 'kabu' may mean 'contain'. How do you get an adjective like 'next' or
+'later' by applying a verb to the noun 'end'? You'd need a definition like 'in
+the direction of the end', or 'in the direction containing the end'. Now look at
+'aohjg':
+
+    aohjg [3, hh] = 1: vs ju yra sxk erisula yra kadu.
+                    2: dest in dast ju yra kyv o yra kyv.
+
+We can't yet make much sense of defn 1, but 2 is partly translated:
+
+    dest <or> dast <add/plus> yra kyv <to/and> yra kyv
+
+'dest' and 'dast' are another pair of opposites related to the 'subt' words, and
+there's another word 'dust' in this family:
+
+    dest [13, bu] = sxresh kyv f vh subteta vzt deqhm.
+    dast [4, bu]  = sxresh kyv f vh subtate vzt deqhm.
+    dust [25, bu] = sxresh kyv f vh vzt deqhm.
+
+If 'dest' relates to something before, and 'dast' to something after, it seems
+like 'dust' is a less specific term due to the removal of the back/forward
+adjective.
+
+'sxresh' and 'deqhm' are nouns we've seen above. 'kyv' and 'vzt' are also nouns.
+'deqhm' and 'kyv' are also verbs. It feels like verbs occur at the end of
+clauses so a possile parse of these is:
+
+    sxresh kyv f    vh  subteta vzt  deqhm
+    <sj>   <k> <bu> <r> <e>     <sj> <k>
