@@ -1,0 +1,86 @@
+# front matter
+
+The title page bears the text 'GINGER / KEVIN DU', which reads like a title and
+author. 'ginger', 'kevin' and 'du' are all words in the language; they could
+literally mean 'ginger' and Kevin Du, but let's not assume. 'ginger' and 'kevin'
+are 'sj' (nouns) and 'du' is a 'hh'.
+
+The first text in the book after the apparent title and author is:
+
+    LIZU KTAP
+    DUDI. SAOLED
+    CXQKU. ZUOGU
+
+These are defined as:
+
+    lizu [1, hh] = yra zuf xyt.
+    ktap [24, sj] = vh wux kytu f sjlup. asre kevin kytu f deda.
+    ktap [24, k] = ja ukaji el je akydep.
+
+    dudi [3, sj] = yre axuaxf kazuqr. suja je ulilu f vh yra. yamte kakakaw yra je aiqr.
+    saoled [0, sj] = yre taguqr. dudi kabu.
+
+    cxqku [1, sj] = yre axuaxf kazuqr. hatel kadu.
+    zuogu [1, sj] = yre taguqr. hatel kadu.
+
+'lizu ktap' is listed as the game's publisher on Steam, and links to Kevin Du's
+page; https://store.steampowered.com/publisher/kevindu. I'm not sure that means
+'lizu ktap' means 'Kevin Du' though since only 'ktap' is a 'sj' (noun) or 'k'
+(verb). It appears again in 'vh steam lizu ktap ppt', having the form '<r> <sj>
+lizu ktap <k>'. It is possible that 'steam' literally means Steam, and the verb
+'ppt' means 'publish'. 'vh' would then be a preposition like 'on' or 'in' or
+'to' or 'by'. 'r' is a word type with only 13 instances.
+
+A few commonalities appear here in the other definitions:
+
+- Both 'dudi' and 'cxqku' are partly defined as 'yre axuaxf kazuqr'.
+- Both 'saoled' and 'zuogu' are partly defined as 'yre taguqr'.
+- Both 'cxqku' and 'zuogu' are partly defined as 'hatel kadu'.
+- 'saoled' references 'dudi' in its definition via 'dudi kabu'.
+
+All these terms are 'sj' (nouns), so if 'yre' means 'a', then 'dudi' and 'cxqku'
+are instances of the same type of thing, ditto for 'saoled' and 'zuogu'.
+
+'dudi' and 'cxqku' appear together again in the phrase 'vh cxqku ee dudi kytu'.
+This is followed by:
+
+    yre yh yre botvi cxhht. dudi. DD4 6JE
+
+This is an address; 'yre yh yre' is 101, and DD4 6JE is a postcode in Dundee,
+Scotland. It is the address of the Craigtay Hotel, 101 Broughty Ferry Road
+(Kevin has confirmed this). It's reasonable to assume that 'dudi' means Dundee
+and therefore 'kazuqr' means town/city. 'botvi' and 'cxhht' are both nouns;
+either could mean street or road. 'axuaxf' in 'axuaxf kazuqr' could be an
+adjective; it has type 'e' and 'e' is a very numerous type, so 'e' could be
+'adjective'.
+
+The above commonalities, the relation of 'saoled' to 'dudi' by a single verb,
+and the phrasing of 'DUDI. SAOLED' and 'CXQKU. ZUOGU' suggests to me that
+'saoled' and 'zuogu' are countries, or at least something larger than a city,
+like a county, state or province. If country, that would make 'saoled' Scotland,
+and 'kadu' would mean 'contain'. 'saoled' is not used anywhere else, but 'zuogu'
+is:
+
+    zuax [1, sj] = zuogu aiqr f liaax z utu lela.
+
+We also see 'taguqr' and 'kazuqr' related by definition:
+
+    taguqr [5, sj] = uxaux kazuqr kadu f uxauxf sjlup. siuai jaraq vh yra ginger
+    dkdg. yre geib yra dkdg.
+
+We also see one other town/city is defined; note 'uxauxf' rather than 'axuaxf':
+
+    sjamhe [1, sj] = yre uxauxf kazuqr. vt yra uzuini ji.
+
+We do not yet know what 'hatel' means but its definition has an interesting
+repeating clause:
+
+    hatel [3, sj] = gerg z (je bebak f sjlup). aosiple subteta (je bebak f sjlup).
+
+'kadu' and 'kabu' are somehow related:
+
+    kabu [3, k] = yra sjlup yra invh kadu.
+    kadu [55, k] = vh yra ji.
+
+We've also seen some uses of words related to others via 'kap', e.g. 'axuaxf',
+'uxaux'/'uxauxf', 'invh'.
