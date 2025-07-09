@@ -54,11 +54,42 @@ either could mean street or road. 'axuaxf' in 'axuaxf kazuqr' could be an
 adjective; it has type 'e' and 'e' is a very numerous type, so 'e' could be
 'adjective'.
 
+Looking at the definitions for 'botvi' and 'cxhht':
+
+    botvi [0]
+        sj.
+            yre vs dudi aohjg l aiqr. sasih tlah.
+
+    cxhht [22]
+        sj.
+            1: rik f sjlup in hgasi.
+            2: ju kazuqr ee kazuqr ahk rik f yele sjlup.
+            3: gaeif z l rik.
+
+'botvi' is never used whereas 'cxhht' mentions 'ju kazuqr ee kazuqr ahk rik' --
+possibly talking about moving ('rik', see below) from 'kazuqr' to 'kazuqr'.
+Seems more likely that 'cxhht' means 'road', and 'kazuqr' could mean something
+less specific, like 'place'.
+
+Note that 'kazuqr' and 'taguqr' both end 'uqr' so possibly this suffix means the
+word denotes a kind of place/locale/region. The only other words with this suffix
+are:
+
+    fgauqr [0, i] = law l airli ji. dku zkehu ehu lela vda. aokasx jeqr duta.
+    chla z vlzu l airli ji.
+
+    jipuqr [2, sj] = ahk duta f yra.
+
+'jipuqr' is a noun so this could work, but 'fgauqr' is an 'i'. We don't know
+what an 'i' is but most of them are unused and have longer bodies of text in
+their definitions, so maybe these are story items? I also wonder if one of these
+words means 'home', as in 'Kevin wants to know what home is'.
+
 The above commonalities, the relation of 'saoled' to 'dudi' by a single verb,
 and the phrasing of 'DUDI. SAOLED' and 'CXQKU. ZUOGU' suggests to me that
 'saoled' and 'zuogu' are countries, or at least something larger than a city,
 like a county, state or province. If country, that would make 'saoled' Scotland,
-and 'kadu' would mean 'contain'. 'saoled' is not used anywhere else, but 'zuogu'
+and 'kabu' would mean 'contain'. 'saoled' is not used anywhere else, but 'zuogu'
 is:
 
     zuax [1, sj] = zuogu aiqr f liaax z utu lela.
@@ -81,6 +112,11 @@ repeating clause:
 
     kabu [3, k]  = yra sjlup yra invh kadu.
     kadu [55, k] = vh yra ji.
+
+If 'ji' means 'be' and 'vh' means 'on/in/by' then 'kadu' could mean 'be in' or
+'be by' etc. Possibly it means the opposite of 'kabu'. If 'taguqr' actually
+means something smaller than 'town/city' then the meanings of 'kabu' and 'kadu'
+would be swapped.
 
 We've also seen some uses of words related to others via 'kap', e.g. 'axuaxf',
 'uxaux'/'uxauxf', 'invh'.
