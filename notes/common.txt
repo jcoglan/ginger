@@ -1,6 +1,14 @@
 # Common words
 
-Things we keep stumbling over while reading other words:
+Words that are very common, or that we have seen repeatedly while reading.
+
+ahk [121]
+    k.
+        ging dkdg vk kytu.
+
+am [111]
+    bu.
+        vs subtet fsa ji f subtat deqhm. alp sxresh deqhm.
 
 beax [22]
     sj.
@@ -16,6 +24,17 @@ beba [35]
     sj.
         ging ahk pdep el bteb f kusxkusx gega.
 
+bteb [44]
+    k.
+        1: eguux kyv.
+        2: liuzu z yra tky.
+    sj.
+        suba chil f ging.
+
+btebr [15]
+    sj.
+        bteb f lela.
+
 deda [32]
     sj.
         lela hji f hucher.
@@ -28,9 +47,30 @@ deqhm [52]
     sj.
         beax f lela in deda.
 
+dkdg [119]
+    k.
+        wux z yra ju yra kadu.
+
+ee [121]
+    bu.
+        ju yra yra shlp deqhm. cxla ysi gega shlp.
+
+el [147]
+    bu.
+        ysi eeluz shlp f gega. vh cjdahh eeluz bteb. ju yra ahk dr tuk aa
+        yra tuk. xzt eeluz yra ji o ju yra ee yra f dsxl kadu.
+
+f [302]
+    bu.
+        subtat subtet bteb deqhm. gega in axuaxf eeluz subtat ji.
+
 gega [30]
     sj.
         axuaxf yra z eguux.
+
+ging [71]
+    sj.
+        hucher ahk hucher ji f subtet.
 
 ginger [37]
     sj.
@@ -49,13 +89,54 @@ hucher [29]
     sj.
         ginger in kai ginger.
 
+je [195]
+    cj.
+        btebr beax.
+
+ji [308]
+    k.
+        1: beba.
+        2: qrexzt deqhm.
+
+kap [132]
+    hh.
+        xsiga kyv.
+
+kyv [35]
+    sj.
+        lela in deda ahk kytu f kusxkusx deda.
+    k.
+        bteb in pdep.
+
+l [127]
+    r.
+        sjdr kytu in eguux in agappx kyin. subteta z gega kadu.
+
 lela [202]
     sj.
         qvq dkdg f hucher.
 
+o [125]
+    bu.
+        ysi eeluz shlp.
+
+pdep [24]
+    k.
+        vzte yra kysi.
+    sj.
+        vzte yra kysi.
+
+sjlup [54]
+    sj.
+        ahk ging kadu f yra.
+
 sxresh [34]
     sj.
         vh vzt ee sjlup kysi f yra.
+
+vh [134]
+    r.
+        vzt in sjlup beax.
 
 yra [287]
     cj.
@@ -65,3 +146,7 @@ yra [287]
         4: sxresh in hgasi beax.
     r.
         lavit hucher beax.
+
+z [227]
+    r.
+        subtet subtat dkdg deqhm. ulu subtat subtet ji.
