@@ -19,9 +19,12 @@ one before it strongly suggests these are a sequence of things, and there being
 
 The construction 'ju X yre' means 'add 1 to X'. The repetition of 'yre' in 'ju
 yre yre' suggests that 'yre' means 'one' and 'ju' (hh) means 'add' or 'plus'.
+Although, 'hh' has only 32 words and it's more likely that 'k' means 'verb' (see
+below), so maybe 'ju' is a comparative term like 'after' or 'more than', or a
+combining word like 'with'.
 
 'yh' is defined as 'tta yre'. By elimination this is most likely 'zero' and so
-'tta' (e) could mean 'less than' or 'absence of'.
+'tta' (e) could mean 'less than' or 'before' or 'absence of'.
 
 Note that numbers 1, 2 and 3 have definitions for other types: 'yre' (a), 'ysi'
 (a), and 'yamte' (sj). 'One' could also mean 'a' (indefinite article) and 'two'
