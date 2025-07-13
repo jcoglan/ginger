@@ -1,0 +1,132 @@
+# subtet and subtat
+
+From the controls, we know that 'subtet{a,a,af}' and 'subtat{,e,ef}' refer to
+notions of going backwards or forwards in space or time. If we also have 'kap'
+meaning 'not' and 'ee' meaning 'and', then 'subt' seems to mean 'not before and
+not after', could be something like 'centre' or 'current position' or 'here' or
+'now'.
+
+    subt [17, k] =
+        sj.
+            kap subteta ee kap subtate.
+        hh.
+            kap vh subteta ee kap vh subtate.
+
+
+## suba, subb and ehg
+
+The words 'suba', 'subb' and 'ehg' refer to performing the verb 'kyv' either
+before (in the past?), here/now, or after (the future?):
+
+    suba [49, k] = vh subteta kyv.
+    subb [49, k] = subt kyv.
+    ehg [27, k]  = vh subtate kyv.
+
+Many definitions use some combination of these separated by 'am'. They're often
+combined with opposites like 'ji'/'hji', 'beba', 'heba', 'kytu'/'hytu',
+'dkdg'/'hkdg', etc.
+
+    eji [9, k]   = ehg ji. am subb hji.
+
+    gudde [26, k] = qvq suba yra ji. am heha ehg yra ji.
+    gudda [1, e]  = suba gudde.
+
+    aidu [1, k] = qah suba kadu am subb kap kadu.
+    aik [6, k]  = ju yra suba kadu o yra subb kadu.
+
+    airlx [5, k] = suba kytu am subb hytu.
+    airli [5, k] = suba kytu aa subb kytu aa ehg kytu.
+    irli [1, a]  = airli. kap airlx.
+
+    alp [15, e] = hucher alpu. suba heba in bteb am subb beba in bteb. kakauka
+    vs du ju yra ji.
+
+    aoliga [2, k] = suba hkdg am subb dkdg. rak.
+
+    gzg [1, a] = suba lll am olla subb ji.
+
+    hjira [1, k] = yras suba shlup o subb axht.
+
+    kesdat [0, k] = qwq suba dkdg am subb hkdg.
+    kesdet [1, k] = qah suba kadu am subb hadu.
+
+    kvin [2, k]   = qlate suba ji am subb hji.
+
+    kyin [77, k]  = 1: suba hji am subt ji.
+                    2: suba heba am subt beba.
+
+    likaz [0, e]  = suba heba am subb beba.
+
+    rah [5, k] = riju suba ji am qahhi subb ji.
+
+    rcxs [3, k] = suba dkdg am subb hkdg.
+
+    sjam [1, sj] = egaxi suba ji am subb hji f yra.
+
+    tkr [8, k] = pul suba ji am subb hji.
+
+    tku [11, k] = suba kap lqa am vx law subb tky.
+
+    tky [15, k] = gudi suba hji am subb ji.
+
+    ubva [21, k] = suba ji o subb yre ji.
+
+    xradu [0, k] = ju lela suba lela asj am subb kesdet.
+
+    ysi [36, y] = ju yre yre.
+    ysi [36, a] = 1: kytu o siuaa kytu.
+                  2: suba ji lpubal hji am subb ji.
+
+These constructions seem like they might describe a change or discontinuity of
+some kind. For example 'suba hji am subt ji' could mean 'not be in the past, but
+now be'. One of the definitions of 'ji' is just 'beba', and a short definition
+of 'to be' is just 'to exist', so 'beba' could mean 'exist'. Then 'suba heba am
+subt beba' would mean 'not exist in the past, but now exist'. So 'kyin' could
+mean 'start being' or 'start existing', i.e. 'begin' or 'appear'. If the 'subt'
+words also related to space, then 'kyin' could also relate to something
+beginning at a certain point in space.
+
+We can make some educated guesses at other words above:
+
+- 'eji' means to be something in the future.
+
+- 'aidu': 'qah suba kadu am subb kap kadu': We don't know 'qah' yet but the rest
+  of the phrase means to be in something in the past but not be in it now, i.e.
+  to leave.
+
+- 'aik': 'ju yra suba kadu o yra subb kadu': We've mostly seen 'ju' in the
+  numbers to indicate adding two numbers together and it's possible it means a
+  more general concept of combining things. The rest of the phrase indicates
+  being in something both now and in the past i.e. to remain.
+
+- 'airlx' means to stop doing or being the verb/noun 'kytu'.
+
+- 'airli' is some conjunction 'aa' combining the verb 'kytu' in the past, present
+  and future.
+
+- 'irli' means 'airli' but not 'airlx'.
+
+- 'alp' has something to do with coming into being 'in bteb'. Possibly related
+  to noun 'alpp' for 'start/birth'.
+
+- 'aoliga' means to begin doing the verb 'dkdg'.
+
+- 'kesdat' means to stop doing the verb 'dkdg' in relation to the noun 'qwq'.
+
+- 'kesdet' means to stop being in the noun 'qah'.
+
+- 'kvin' means to stop being the noun 'qlate'.
+
+- 'likaz' means an adjective related to start existing. It could mean 'new' but
+  this seems too common a word to have no uses.
+
+- 'rah' means to be adjective 'riju' in the past but to now be adjective
+  'qahhi'.
+
+- 'rcxs' means to stop doing the verb 'dkdg', i.e. the opposite of 'aoliga'.
+
+- 'sjam' is a noun that is adjective 'egaxi' in the past but not now.
+
+- 'tkr' means to stop being the noun 'pul'.
+
+- 'tky' means to begin being the adjective 'gudi'.
