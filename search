@@ -12,10 +12,12 @@ function parse (manual, translation) {
     let defWords = def.map(parseWord)
 
     let types = parseDef(defWords, translation)
-    let raw = defWords.map((w) => w.text)
+    if (!types) return null
+
+    let raw = types.flatMap(({ defs }) => defs.flatMap((def) => def.map((d) => d.text)))
     let trans = translation.get(word)
 
-    return types ? { word, types, raw, trans } : null
+    return { word, types, raw, trans }
   })
 
   defs = defs.filter((d) => d !== null)
