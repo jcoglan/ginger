@@ -63,6 +63,26 @@ function parseDef (words, translation) {
   return types
 }
 
+function stats ({ defs }, dict) {
+  let total = 0
+  let translated = 0
+
+  for (let def of defs) {
+    for (let { text } of def) {
+      total += 1
+      let trans = dict.find(({ word }) => word === text)?.trans
+      if (trans) translated += 1
+    }
+  }
+
+  return {
+    total,
+    translated,
+    percent: Math.round(100 * translated / total),
+    missing: total - translated
+  }
+}
+
 function matcher (patterns) {
   patterns = patterns.map(patternMatcher)
 
@@ -87,14 +107,17 @@ function patternMatcher (pattern) {
   return (word) => word === pattern
 }
 
-function printEntry ({ word, trans, types, count }, opts = {}) {
+function printEntry ({ word, trans, types, count, stats }, opts = {}) {
   let head = bold(word) + ` [${count}]`
-  if (opts.translate && trans) head += ' ' + ul(trans)
+  if (opts.translate && trans) head += ` ${ul(trans)}`
   console.log(head)
 
-  for (let { type, trans, defs } of types) {
-    let pos = (opts.translate && trans) ? ul(trans) : type
-    console.log(indent(1, pos + '.'))
+  for (let { type, trans, defs, stats } of types) {
+    let pos = ((opts.translate && trans) ? ul(trans) : type) + '.'
+    if (opts.translate) {
+      pos += ` (${stats.translated}/${stats.total}, ${stats.percent}%)`
+    }
+    console.log(indent(1, pos))
 
     for (let [i, def] of defs.entries()) {
       if (defs.length > 1) def = [{ text: `${i+1}`, punc: ':' }, ...def]
@@ -191,6 +214,12 @@ solves = new Map(solves.split('\n').map((line) => line.split(/ *= */)))
 let manual = fs.readFileSync(path.resolve(__dirname, 'manual.txt'), 'utf8')
 let dict = parse(manual, solves)
 
+for (let { types } of dict) {
+  for (let type of types) {
+    type.stats = stats(type, dict)
+  }
+}
+
 let { values: args } = parseArgs({
   options: {
     types:      { short: 'T', type: 'boolean' },
@@ -247,8 +276,26 @@ if (args.use) {
   results = results.filter(({ raw }) => use.match(raw))
 }
 
+function sortBy (list, fn) {
+  list = list.map((x) => [x, fn(x)])
+  list = list.sort(([x, a], [y, b]) => b - a)
+  return list.map(([x]) => x)
+}
+
 if (args.sort === 'count') {
-  results = results.sort((a, b) => b.count - a.count)
+  results = sortBy(results, (e) => e.count)
+}
+
+if (args.sort === 'missing') {
+  results = sortBy(results, (e) => {
+    return 0 - e.types.reduce((n, entry) => Math.min(n, entry.stats.missing), 1000)
+  })
+}
+
+if (args.sort === 'percent') {
+  results = sortBy(results, (e) => {
+    return e.types.reduce((n, entry) => Math.max(n, entry.stats.percent), 0)
+  })
 }
 
 console.log(`found words: ${results.length}\n`)
