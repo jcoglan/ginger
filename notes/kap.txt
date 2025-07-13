@@ -1,136 +1,230 @@
 # kap
 
-axuax [36, hh] = kap uxaux. zuf bteb.
-uxaux [79, hh] = kap axuax. zuf bteb.
-exiex [23, hh] = kap axuax ee kap uxaux.
+There are many pairs of words that are related very simply by the word 'kap',
+one often being defined as 'X = kap Y'.
 
-axuaxf [22, e] = hgasi z l axuax dkdg.
-uxauxf [24, e] = hgasi z l uxaux dkdg.
+    shg [19, k] = helu je kytu am taar in tair yra ji.
+    xhg [5, k]  = kap shg.
 
-kauin [34, e] = 1: axuax ging dkdg. kap taar.
-                2: exiex axuaxf ging dkdg. kap taar.
-taar [41, e] = uxaux ging dkdg. kap kauin.
-auin [1, e] = kap kauin. kauin cji ji el hhg je ishl.
-eiar[1, hh] = kap taar ee kap kauin.
+'kap' itself is defined as:
 
-asx [20, k] = 1: asj am axuaxf ji.
-              2: dust ja ee je kap utei o vh akudep z je ja alih kat ja je asj.
-xztl [1, k] = kap asx. vs exiex erisula belu kadu. axx.
+    kap [132, hh] = xsiga kyv.
+                    <sj>  <sj|k>
 
-kysi [42, k] = subtatef sxresh kytu.
-kyso [29, k] = vk yra kysi.
-xysi [1, k] = kap uxi kysi.
+Most of the words related in this way seem to be 'sj', 'k', or 'e', which we
+think are nouns, verbs, and adjectives. A great many of them involve the word
+'kytu':
 
-kytu [85, k] = 1: kyv kysi. 2: kakauka kyso.
-kytu [85, sj] = kyv in sxresh in hgasi kyv f gega. k kuuee.
-hytu [6, k] = kap kytu.
+    kysi [42, k] = subtatef sxresh kytu.
+    kyso [29, k] = vk yra kysi.
+    xysi [1, k]  = kap uxi kysi.
 
-lav [9, sj] = ahk tta lela kytu.
-lav [9, e] = yre ji. ju yra hkdg. lava. lavit. kap lll.
-eut [1, e] = kap lav.
-gude [2, e] = cxla ahk uxaux lela kytu.
-ehut [15, e] = kap lav ee kap gude. uxauxf in axuaxf ahk.
+    kytu [85, k]  = 1: kyv kysi. 2: kakauka kyso.
+    kytu [85, sj] = kyv in sxresh in hgasi kyv f gega. k kuuee.
+    hytu [6, k]   = kap kytu.
 
-ahk [121, k] = ging dkdg vk kytu.
-hhk [45, k] = kap ahk.
+    lll [3, k]   = kauin je hji el je bteb.
+    lav [9, sj]  = ahk tta lela kytu.
+    lav [9, e]   = yre ji. ju yra hkdg. lava. lavit. kap lll.
+    eut [1, e]   = kap lav.
+    gude [2, e]  = cxla ahk uxaux lela kytu.
+    ehut [15, e] = kap lav ee kap gude. uxauxf in axuaxf ahk.
 
-invk [3, a] = kytu vs qvq.
-inxh [2, a] = kap invh.
+    ahk [121, k] = ging dkdg vk kytu.
+    hhk [45, k]  = kap ahk.
 
-airlx [5, k] = suba kytu am subb hytu.
-airli [5, k] = suba kytu aa subb kytu aa ehg kytu.
-irli [1, a] = airli. kap airlx.
+    invh [3, a] = kytu vs qvq.
+    inxh [2, a] = kap invh.
 
-qrfde [6, e] = kap kusxkusx. aokasx vzte deda.
-qrfde [6, a] = subb kytu.
-kusxkusx [9, e] = kap qrfde.
+    airlx [5, k] = suba kytu am subb hytu.
+    airli [5, k] = suba kytu aa subb kytu aa ehg kytu.
+    irli [1, a]  = airli. kap airlx.
 
-shg [19, k] = helu je kytu am taar in tair yra ji.
-xhg [5, k] = kap shg.
+    qrfde [6, e]    = kap kusxkusx. aokasx vzte deda.
+    qrfde [6, a]    = subb kytu.
+    kusxkusx [9, e] = kap qrfde.
 
-ska [14, k] = exate kytu.
-iska [2, e] = ahk in belu ska.
-xska [1, e] = kap iska.
+    ska [14, k] = exate kytu.
+    iska [2, e] = ahk in belu ska.
+    xska [1, e] = kap iska.
 
-eytu [1, e] = ehut el yra kytu ji.
-xytu [1, e] = kap eytu.
+    eytu [1, e] = ehut el yra kytu ji.
+    xytu [1, e] = kap eytu.
 
-axhk [8, k] = 1: vk ju yra ee yra ysi hucher kytu.
-              2: ysi hucher yre hucher kyin.
-yre [96, y] = kap axhk f yra deqhm.
+    axhk [8, k] = 1: vk ju yra ee yra ysi hucher kytu.
+                  2: ysi hucher yre hucher kyin.
+    yre [96, y] = kap axhk f yra deqhm.
 
-rek [8, k] = vk ju dkdger vt dkdger rik.
-cxdg [0, e] = kap rek.
+In a few cases, the word defined as 'kap X' replaces the first letter of X with
+'h', or prefixes X with 'h'; see 'hytu' and 'hhk' above, plus:
 
-dupi [4, k] = hezl yra kap kysi aiin.
-dupo [1, k] = yra hezl kap kysi el dupi.
+    ahg [35, k] = vk gudde aa shg dkdg.
+    hhg [13, k] = kap ahg.
 
-eeaa [0, sj] = eja ee aje je kap kaxs el je shley.
-eja [5, cj] = alp ja.
-aje [3, cj] = subtatef je.
-ja [90, cj] = pdepr beax.
-je [195, cj] = btebr beax.
+    akudep [45, k]  = plu guo rah in dyt.
+    akudep [45, sj] = qvq z guo.
+    hkudep [5, k]   = kap akudep.
 
-kadu [55, k] = vh yra ji.
-hadu [5, k] = kap kadu.
+    asj [50, k] = 1: vk ja je f akudep kyv.
+                  2: ahk yamte ew el lela chley.
+                  3: yra belu rak.
+    hsj [4, k] = kap asj.
 
-beba [35, k] = ging ahk pdep. yra yra ji.
-heba [18, k] = kap beba.
+    beba [35, k] = ging ahk pdep. yra yra ji.
+    heba [18, k] = kap beba.
 
-belu [48, k] = plu akudep plaf.
-helu [9, k] = kap belu.
+    belu [48, k] = plu akudep plaf.
+    helu [9, k]  = kap belu.
 
-ahg [35, k] = vk gudde aa shg dkdg.
-hhg [13, k] = kap ahg.
+    dkdg [119, k] = wux z yra ju yra kadu.
+    hkdg [30, k]  = kap dkdg.
 
-ji [308, k] = 1: beba.
-              2: qrexzt deqhm.
-hji [65, k] = kap ji.
+    ji [308, k] = 1: beba.
+                  2: qrexzt deqhm.
+    hji [65, k] = kap ji.
 
-dkdg [119, k] = wux z yra ju yra kadu.
-hkdg [30, k] = kap dkdg.
+    kadu [55, k] = vh yra ji.
+    hadu [5, k]  = kap kadu.
 
-akudep [45, k] = plu guo rah in dyt.
-akudep [45, sj] = qvq z guo.
-hkudep [5, k] = kap akudep.
+Beyond these groups there are many more sets of words related via 'kap':
 
-asj [50, k] = 1: vk ja je f akudep kyv.
-              2: ahk yamte ew el lela chley.
-              3: yra belu rak.
-hsj [4, k] = kap asj.
+    axuax [36, hh] = kap uxaux. zuf bteb.
+    uxaux [79, hh] = kap axuax. zuf bteb.
+    exiex [23, hh] = kap axuax ee kap uxaux.
 
-qlat [21, hh] = sxk ehut vk gudde ji.
-inlt [13, hh] = kap qlat.
+    axuaxf [22, e] = hgasi z l axuax dkdg.
+    uxauxf [24, e] = hgasi z l uxaux dkdg.
 
-cjdahh [4, e] = uxaux hutl in ler dkdg. qlat el xihuhesh z yras tuk aa dyt ji.
-jahh [1, e] = kap cjdahh.
+    kauin [34, e] = 1: axuax ging dkdg. kap taar.
+                    2: exiex axuaxf ging dkdg. kap taar.
+    taar [41, e]  = uxaux ging dkdg. kap kauin.
+    auin [1, e]   = kap kauin. kauin cji ji el hhg je ishl.
+    eiar[1, hh]   = kap taar ee kap kauin.
 
-cxli [2, k] = ahk dyt.
-ppcxli [0, sj] = cji je kap cxli.
+    asx [20, k] = 1: asj am axuaxf ji.
+                  2: dust ja ee je kap utei o vh akudep z je ja alih kat ja je asj.
+    xztl [1, k] = kap asx. vs exiex erisula belu kadu. axx.
 
-vzte [9, a] = vztu deqhm.
-vzte [9, e] = ahk pdep.
-vzte [9, sj] = guo z vzt.
-qvq [26, sj] = kap vzte f kyv.
+    rek [8, k]  = vk ju dkdger vt dkdger rik.
+    cxdg [0, e] = kap rek.
 
-lqa [40, k] = vh qah dkdg.
-riju [7, e] = kap lqa.
+    dupi [4, k] = hezl yra kap kysi aiin.
+    dupo [1, k] = yra hezl kap kysi el dupi.
 
-subt [17, sj] = kap subteta ee kap subtate.
-subt [17, hh] = kap vh subteta ee kap vh subtate.
+    eeaa [0, sj] = eja ee aje je kap kaxs el je shley.
+    eja [5, cj]  = alp ja.
+    aje [3, cj]  = subtatef je.
+    ja [90, cj]  = pdepr beax.
+    je [195, cj] = btebr beax.
 
-hurer [1, a] = uxaux ging kadu.
-hurer [1, e] = uxaux ging dkdg.
-tssi [0, e] = kap hurer.
+    hjter [6, sj] = jipuqr vx ppicj.
+    huter [1, sj] = jipuqr kap vx ppicj.
 
-ukaji [4, k] = wux kadu.
-wah [1, a] = kap ukaji.
+    qlat [21, hh] = sxk ehut vk gudde ji.
+    inlt [13, hh] = kap qlat.
 
-gudde [26, k] = qvq suba yra ji. am heha ehg yra ji.
-xax [1, e] = akudep vx kap gudde.
-xgf [2, k] = je igf am kap gudde.
+    cjdahh [4, e] = uxaux hutl in ler dkdg. qlat el xihuhesh z yras tuk aa dyt ji.
+    jahh [1, e]   = kap cjdahh.
 
-hmt [7, a] = sepsi exate hadu.
-hmt [7, e] = xyki ju yra ee yra dkdg. ahk yras ppicj vx xyki.
-xhmt [4, a] = kap hmt.
-xhmt [4, e] = qlat vk ppicj ji.
+    cxli [2, k]    = ahk dyt.
+    ppcxli [0, sj] = cji je kap cxli.
+
+    vzte [9, a]  = vztu deqhm.
+    vzte [9, e]  = ahk pdep.
+    vzte [9, sj] = guo z vzt.
+    qvq [26, sj] = kap vzte f kyv.
+
+    lqa [40, k] = vh qah dkdg.
+    riju [7, e] = kap lqa.
+
+    subt [17, sj] = kap subteta ee kap subtate.
+    subt [17, hh] = kap vh subteta ee kap vh subtate.
+
+    hurer [1, a] = uxaux ging kadu.
+    hurer [1, e] = uxaux ging dkdg.
+    tssi [0, e]  = kap hurer.
+
+    ukaji [4, k] = wux kadu.
+    wuh [2, a]   = ukaji.
+    wah [1, a]   = kap ukaji.
+
+    gudde [26, k] = qvq suba yra ji. am heha ehg yra ji.
+    xax [1, e]    = akudep vx kap gudde.
+    xgf [2, k]    = je igf am kap gudde.
+
+    hmt [7, a]  = sepsi exate hadu.
+    hmt [7, e]  = xyki ju yra ee yra dkdg. ahk yras ppicj vx xyki.
+    xhmt [4, a] = kap hmt.
+    xhmt [4, e] = qlat vk ppicj ji.
+
+So many words defined as simply 'kap X' indicates 'kap' is some sort of
+modifier, or logical/relational term. It's particularly interesting that some
+pairs of words are defined as each one being 'kap' of the other, for example:
+
+    qrfde [6, e]    = kap kusxkusx. aokasx vzte deda.
+    kusxkusx [9, e] = kap qrfde.
+
+    axuax [36, hh] = kap uxaux. zuf bteb.
+    uxaux [79, hh] = kap axuax. zuf bteb.
+
+    kauin [34, e] = 1: axuax ging dkdg. kap taar.
+                    2: exiex axuaxf ging dkdg. kap taar.
+    taar [41, e]  = uxaux ging dkdg. kap kauin.
+
+This suggests 'kap' is not an ordering relation where one word denotes something
+bigger/more intense than the other, or these cyclic references would make no
+sense. What would make sense is for 'kap' to indicate negation, inversion or
+opposition. However, it can't indicate a binary opposite since there are sets of
+words where A is 'kap B', B is 'kap A', and C is 'kap A ee kap B'.
+
+    lav [9, e]   = yre ji. ju yra hkdg. lava. lavit. kap lll.
+    gude [2, e]  = cxla ahk uxaux lela kytu.
+    ehut [15, e] = kap lav ee kap gude. uxauxf in axuaxf ahk.
+
+    axuax [36, hh] = kap uxaux. zuf bteb.
+    uxaux [79, hh] = kap axuax. zuf bteb.
+    exiex [23, hh] = kap axuax ee kap uxaux.
+
+    kauin [34, e] = 1: axuax ging dkdg. kap taar.
+                    2: exiex axuaxf ging dkdg. kap taar.
+    taar [41, e]  = uxaux ging dkdg. kap kauin.
+    eiar[1, hh]   = kap taar ee kap kauin.
+
+    subt [17, sj] = kap subteta ee kap subtate.
+
+So if 'kap' does mean 'not' in the sense of negation or opposition or exclusion,
+then there are words defined as 'not A and not B'; these definitions suggest
+'ee' means 'and'.
+
+This gives us 'hji' meaning 'to not be' and 'hadu' meaning 'not be in' or 'not
+contain' depending on what 'kadu' means.
+
+Bear in mind that one definition of 'ji' is just 'beba' while 'beba' (k) is
+defined as 'ging ahk pdep. yra yra ji.' Possibly 'ji' and 'beba' are different
+tenses or gerunds or some such.
+
+There are some words that seem to be defined as 'X or not X', for example:
+
+    pji [6, k] = ji in hji.
+
+    suerr [3]
+        e.
+            beba in heba deqhm.
+        k.
+            beba in heba.
+        sj.
+            hgasi z beba in heba deqhm.
+
+It's not immediately clear what this means, or if these are just contradictions
+that means we're wrong about what 'kap' and 'in' mean. Another seeming
+contradiction is:
+
+    liuzu [16, sj] = vh wux ee wax. am kap vh wux ee wax.
+
+'wux' and 'wax' are seemingly opposites ('hkdg = kap dkdg'):
+
+    wux [17, e] = liuzu pdepr ee btebr hkdg.
+    wax [10, e] = liuzu pdepr ee btebr dkdg.
+
+These phrases aren't necessarily nonsensical, it's not uncommon to see 'X and
+<opposite of X>' in normal usage.
