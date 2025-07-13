@@ -99,12 +99,15 @@ We can make some educated guesses at other words above:
   more general concept of combining things. The rest of the phrase indicates
   being in something both now and in the past i.e. to remain.
 
-- 'airlx' means to stop doing or being the verb/noun 'kytu'.
+- 'airlx' means to stop doing or being the verb/noun 'kytu'. We know 'kytu'
+  means 'verb' or maybe 'action' so this just means stop doing, or cease'.
 
 - 'airli' is some conjunction 'aa' combining the verb 'kytu' in the past, present
-  and future.
+  and future. Maybe this describes an ongoing action, the present participle,
+  etc. i.e. it just means 'doing'.
 
-- 'irli' means 'airli' but not 'airlx'.
+- 'irli' means 'airli' but not 'airlx', i.e. continue doing something and not
+  stop.
 
 - 'alp' has something to do with coming into being 'in bteb'. Possibly related
   to noun 'alpp' for 'start/birth'.

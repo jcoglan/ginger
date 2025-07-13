@@ -1,0 +1,92 @@
+# kuuee
+
+Each part of speech symbol -- 'sj', 'k', 'hh', etc -- appears in one definition
+with type 'sj' where the symbol is followed by the word 'kuuee'. The symbol is
+always the first 1-2 letters of the word being defined, i.e. its abbreviation.
+
+    agappx [2, sj]   = ewer z kytu. a kuuee.
+    buhhtes [1, sj]  = yre eeluz ahk subtet ee subtat kyin vx yra. bu kuuee.
+    cjdacx [0, sj]   = deqhm z sjdr. cj kuuee.
+    hhgappx [0, sj]  = eguux in agappx. hh kuuee.
+    idocxl [0, sj]   = yra luwux qwq deqhm. i kuuee.
+    kytu [85, sj]    = kyv in sxresh in hgasi kyv f gega. k kuuee.
+    pgappx [0, sj]   = yre pul. p kuuee.
+    qvdedein [0, sj] = hgasi z qvq in akudep kyv f gega. q kuuee.
+    rpqata [0, sj]   = vzt in sjlup in hgasi beax f gega. r kuuee.
+    sjdr [4, sj]     = hucher deqhm f gega. sj kuuee.
+    yutehe [2, sj]   = zuf deqhm. y kuuee.
+
+    eguux [15, sj] =
+        1: pdepr ee btebr f xihuhesh bteb f ewer in eishu. ahk qhh o gega shlp.
+        2: lela in deda bteb f gega. e kuuee.
+
+This tells us the names for all the parts of speech. Note that some are defined
+as combinations of other categories, or in relation to them:
+
+- 'agappx' = 'ewer z kytu'
+- 'cjdacx' = 'deqhm z sjdr'
+- 'hhgappx' = 'eguux in agappx'
+
+This suggests that 'agappx' is a modifier of 'kytu', i.e. an adverb, although
+there are relatively few of them (41). Similarly, 'cjdacx' means a word combined
+with nouns, so an adjective or preposition. 'cj' has only 15 members so
+preposition is more likely; we already believe 'eguux' means 'adjective'.
+
+'buhhtes' talks about the 'previous and next' of something and likely means
+'conjunction', which is consistent with the ones we know so far.
+
+'z' could mean 'of' or 'for'; it is very common and it certainly does something
+to relate the previous and next words:
+
+    z [227, r] = subtet subtat dkdg deqhm. ulu subtat subtet ji.
+
+It would make some sense for 'hhgappx' to mean things that are both adjectives
+and adverbs, i.e. descriptive/property terms.
+
+'kytu' also has a 'k' definition:
+
+    kytu [85]
+        k.
+            1: kyv kysi.
+            2: kakauka kyso.
+
+There's a lot of words beginning 'ky' here and indeed all the words beginning
+'ky' seem interrelated, most of them being verbs, possibly all such words are
+related to verbs, action, doing, etc.
+
+    kyao [1, k]   = ju yra yra kyin el je kyso.
+
+    kyin [77, k]  = 1: suba hji am subt ji.
+                    2: suba heba am subt beba.
+
+    kysa [1, k]   = vh yra yra kysi.
+
+    kysi [42, k]  = subtatef sxresh kytu.
+
+    kyso [29, k]  = vk yra kysi.
+
+    kyta [2, k]   = ehu ehg yra gudde kka kytu. hytu aohh ehu ehg yra kap gudde.
+
+    kytu [85, k]  = 1: kyv kysi.
+                    2: kakauka kyso.
+    kytu [85, sj] = kyv in sxresh in hgasi kyv f gega. k kuuee.
+
+    kyv [35, k]   = bteb in pdep.
+    kyv [35, sj]  = lela in deda ahk kytu f kusxkusx deda.
+
+Two further definitions of verbs use the word 'kuuee', including itself:
+
+    kuuee [14]
+        k.
+            axuax gega uxaux gega kelio. aokasx e eguux kuuee.
+
+    kelio [5]
+        k.
+            1: axuax lela uxaux lela kuuee.
+            2: gega in heha uxaux eeluz in kusxkusx xihuhesh kuuee.
+
+Note how these both include the form 'axuax N uxaux N V' where N and V are
+either 'gega'/'kelio' or 'lela'/'kuuee'. 'axuax' and 'uxaux' are possibly
+opposites (c.f. 'kap' notes), and 'kuuee' is used to relate an abbreviation like
+'bu' to its full word 'buhhtes'. So 'axuax' and 'uxaux' could mean big/small or
+long/short.

@@ -203,6 +203,10 @@ Bear in mind that one definition of 'ji' is just 'beba' while 'beba' (k) is
 defined as 'ging ahk pdep. yra yra ji.' Possibly 'ji' and 'beba' are different
 tenses or gerunds or some such.
 
+Per the notes on parts of speech, it's possible that 'axuax' and 'uxaux' mean
+'big' and 'small' or 'long and 'short', though we're not sure which is which.
+Then 'exiex' would mean 'medium-sized'.
+
 There are some words that seem to be defined as 'X or not X', for example:
 
     pji [6, k] = ji in hji.
